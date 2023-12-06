@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: Montserrat;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+    gap: 20px;
+}
+nav h4{
+    font-size: 20 px;
+    font-weight: 500;
+    
+}
+nav i{
+   background-color: black;
+   color: white ;
+   font-size: 20px;
+   padding: 10px;
+   border-radius: 50%;
+    
+    }
+#center {
+     
+    width: 100%;
+    padding:40px 50px;
+    
+
+}
+#center h1{
+
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 400;
+}
+#center-in p{
+    font-size: 15px;
+    font-weight: 500;
+}
+#center-in{
+    height: 150px;
+     margin-top: 20px;
+  
+    display: flex;
+    justify-content: space-between;
+    
+    
+  
+}
+#right{
+    width: 20%;
+}
+.element {
+   
+    margin: 5px;
+    padding: 10px 0;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.element a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.element i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.element:hover i{
+    opacity: 1;
+}
+
+#bottom{
+    height: 40%;
+    width: 100%;
+    background-image: url(PicOne.avif);
+
+    background-size: cover;
+    background-position: 0 25%;
+}
