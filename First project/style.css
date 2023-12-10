@@ -44,15 +44,18 @@ nav i{
 }
 #center h1{
 
-    font-size: 60px;
-    line-height: 65px;
+    font-size: 4vw;
+    line-height: 4.3vw;
     font-weight: 400;
 }
 #center-in p{
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 1.2vw;
     font-weight: 500;
+    line-height: 1.4vw;
 }
 #center-in{
+    /* background-color: red; */
     height: 150px;
      margin-top: 20px;
   
@@ -66,9 +69,10 @@ nav i{
     width: 20%;
 }
 .element {
+    /* background-color: yellow; */
    
-    margin: 5px;
-    padding: 10px 0;
+    margin: 3px;
+    padding: 5px 0;
     border-top: 2px solid black;
     display: flex;
     justify-content: space-between;
@@ -94,7 +98,103 @@ nav i{
     height: 40%;
     width: 100%;
     background-image: url(PicOne.avif);
+    margin-top: 20px;
 
     background-size: cover;
     background-position: 0 25%;
+}
+
+@media (max-width: 600px) {
+    nav{
+     
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 5px;
+        gap: 10px;
+    }
+    nav h4{
+        font-size: 12 px;
+        font-weight: 500;
+        
+    }
+    nav i{
+       background-color: black;
+       color: white ;
+       font-size: 15px;
+       padding: 7px;
+       border-radius: 50%;
+        
+        }
+        #center {
+     
+            width: 100%;
+            padding:40px 15px;
+            
+        
+        }
+        #center h1{
+        
+            font-size: 8vw;
+            line-height: 8.5vw;
+            font-weight: 400;
+        }
+        #center-in p{
+            /* font-size: 15px; */
+            font-size: 3.5vw;
+            font-weight: 500;
+            line-height: 4.5vw;
+        }
+        #center-in{
+            /* background-color: red; */
+            height: 150px;
+             margin-top: 20px;
+          
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: space-between;
+            
+            
+          
+        }
+        #right{
+            width: 100%;
+        }
+        .element {
+            /* background-color: yellow; */
+           
+            margin: 3px;
+            padding: 5px 0;
+            border-top: 1px solid rgb(37, 34, 34);
+            display: flex;
+            justify-content: space-between;
+        
+            
+        }
+        .element a{
+            color:  rgb(37, 34, 34);
+            display: flex;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .element i{
+            font-size: 15px;
+            font-weight: 400;
+            color:  rgb(37, 34, 34);
+            opacity: 1;
+        }
+        #bottom{
+            height: 30%;
+            width: 100%;
+            background-image: url(PicOne.avif);
+            /* margin-top: 50px; */
+        
+            background-size: cover;
+           
+        }
+        
 }
